@@ -1,11 +1,17 @@
 {
-    "Name": "A common neural mechanism underlies experiences of passage of time",
-    "BIDSVersion": "1.7.0",
-    "DatasetType": "raw",
-    "Authors": [
-        "[Unspecified]"
-    ],
-    "Author": "Jording et al.",
-    "DatasetDOI": "doi:10.18112/openneuro.ds007454.v1.0.1",
-    "License": "CC0"
+  "Name": "A common neural mechanism underlies experiences of passage of time",
+  "BIDSVersion": "1.7.0",
+  "DatasetType": "raw",
+  "Authors": [
+    "[Unspecified]"
+  ],
+  "Author": "Jording et al.",
+  "DatasetDOI": "10.82901/nemar.on007454",
+  "License": "CC0",
+  "SourceDatasets": [
+    {
+      "DOI": "doi:10.18112/openneuro.ds007454.v1.0.1"
+    }
+  ],
+  "Version": "1.0.0"
 }
