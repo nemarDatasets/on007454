@@ -1,4 +1,6 @@
-﻿# Raw data for the study 'A common neural mechanism underlies experiences of passage of time'
+[![DOI](https://img.shields.io/badge/DOI-10.82901%2Fnemar.on007454-blue)](https://doi.org/10.82901/nemar.on007454)
+
+# Raw data for the study 'A common neural mechanism underlies experiences of passage of time'
 
 This repository contains the BIDS-formatted dataset generated from EEG and behavioral data.
 
