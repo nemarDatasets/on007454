@@ -2,17 +2,42 @@
   "version": "2.0",
   "pipeline_stage": "enriched",
   "title": "A common neural mechanism underlies experiences of passage of time",
+  "description": "This dataset contains BIDS-formatted EEG and behavioral data from a study investigating the neural mechanisms underlying the subjective experience of time passage. Participants performed temporal perception tasks while continuous EEG was recorded. The dataset includes raw EEG data, behavioral responses, and participant metadata.",
   "license": "CC0",
   "dataset_type": "raw",
   "authors": {
     "[Unspecified]": {}
   },
-  "related_identifiers": [
+  "keywords": [
     {
-      "identifier": "10.18112/openneuro.ds007454.v1.0.1",
-      "identifier_type": "DOI",
-      "relation_type": "IsIdenticalTo"
+      "term": "EEG"
     },
+    {
+      "term": "time perception"
+    },
+    {
+      "term": "temporal processing"
+    },
+    {
+      "term": "neural mechanisms"
+    },
+    {
+      "term": "subjective time"
+    },
+    {
+      "term": "electrophysiology"
+    },
+    {
+      "term": "BIDS"
+    },
+    {
+      "term": "time experience"
+    },
+    {
+      "term": "consciousness"
+    }
+  ],
+  "related_identifiers": [
     {
       "identifier": "https://github.com/nemarDatasets/on007454",
       "identifier_type": "URL",
@@ -32,15 +57,20 @@
       "identifier": "10.1038/s41597-019-0104-8",
       "identifier_type": "DOI",
       "relation_type": "References"
+    },
+    {
+      "identifier": "10.18112/openneuro.ds007454.v1.0.1",
+      "identifier_type": "DOI",
+      "relation_type": "IsDerivedFrom"
     }
   ],
   "resource_type_general": "Dataset",
+  "resource_type_specific": "EEG Dataset",
   "modalities": [
     "eeg"
   ],
-  "resource_type_specific": "EEG Dataset",
   "sizes": [
-    "0.0 KB (1 files)"
+    "31.8 GB (211 files)"
   ],
   "formats": [
     ".bvef",
@@ -50,31 +80,8 @@
     ".md",
     ".tsv",
     ".vhdr",
-    ".vmrk"
+    ".vmrk",
+    ".yml"
   ],
-  "description": "This dataset contains BIDS-formatted EEG and behavioral data collected to investigate a common neural mechanism underlying subjective experiences of time passage. The study employs electroencephalography to identify shared neural correlates across different temporal perception tasks, contributing to understanding of how the brain processes and represents the passage of time. Participants completed multiple temporal perception tasks while EEG was recorded. The dataset includes raw EEG data, behavioral responses, and associated metadata organized according to BIDS standards. This enriched NEMAR version provides standardized metadata and enhanced accessibility for the research community.",
-  "keywords": [
-    {
-      "term": "EEG"
-    },
-    {
-      "term": "time perception"
-    },
-    {
-      "term": "temporal processing"
-    },
-    {
-      "term": "neural mechanisms"
-    },
-    {
-      "term": "subjective time"
-    },
-    {
-      "term": "temporal cognition"
-    },
-    {
-      "term": "BIDS"
-    }
-  ],
-  "source_hash": "6e5c5b74fc333eb2ab8d9abbb3be84be3942ff185c626734a9902ce242315c47"
+  "source_hash": "387481d127e9269a20c1266f45f1c5837d1dabd7c93251b9c8f972b2cd1b160c"
 }
