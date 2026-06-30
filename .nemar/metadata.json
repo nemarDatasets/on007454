@@ -1,27 +1,80 @@
 {
   "version": "2.0",
-  "dataset_id": "on007454",
-  "source": "openneuro",
-  "source_id": "ds007454",
+  "pipeline_stage": "enriched",
   "title": "A common neural mechanism underlies experiences of passage of time",
+  "license": "CC0",
+  "dataset_type": "raw",
   "authors": {
     "[Unspecified]": {}
   },
-  "license": "CC0",
-  "dataset_type": "raw",
   "related_identifiers": [
     {
       "identifier": "10.18112/openneuro.ds007454.v1.0.1",
       "identifier_type": "DOI",
       "relation_type": "IsIdenticalTo"
+    },
+    {
+      "identifier": "https://github.com/nemarDatasets/on007454",
+      "identifier_type": "URL",
+      "relation_type": "IsDescribedBy"
+    },
+    {
+      "identifier": "https://nemar.org/dataset/on007454",
+      "identifier_type": "URL",
+      "relation_type": "IsDescribedBy"
+    },
+    {
+      "identifier": "10.21105/joss.01896",
+      "identifier_type": "DOI",
+      "relation_type": "References"
+    },
+    {
+      "identifier": "10.1038/s41597-019-0104-8",
+      "identifier_type": "DOI",
+      "relation_type": "References"
     }
   ],
-  "pipeline_stage": "seeded",
-  "bids_version": "1.7.0",
-  "recording_modality": [
+  "resource_type_general": "Dataset",
+  "modalities": [
     "eeg"
   ],
-  "datatypes": [
-    "eeg"
-  ]
+  "resource_type_specific": "EEG Dataset",
+  "sizes": [
+    "0.0 KB (1 files)"
+  ],
+  "formats": [
+    ".bvef",
+    ".csv",
+    ".eeg",
+    ".json",
+    ".md",
+    ".tsv",
+    ".vhdr",
+    ".vmrk"
+  ],
+  "description": "This dataset contains BIDS-formatted EEG and behavioral data collected to investigate a common neural mechanism underlying subjective experiences of time passage. The study employs electroencephalography to identify shared neural correlates across different temporal perception tasks, contributing to understanding of how the brain processes and represents the passage of time. Participants completed multiple temporal perception tasks while EEG was recorded. The dataset includes raw EEG data, behavioral responses, and associated metadata organized according to BIDS standards. This enriched NEMAR version provides standardized metadata and enhanced accessibility for the research community.",
+  "keywords": [
+    {
+      "term": "EEG"
+    },
+    {
+      "term": "time perception"
+    },
+    {
+      "term": "temporal processing"
+    },
+    {
+      "term": "neural mechanisms"
+    },
+    {
+      "term": "subjective time"
+    },
+    {
+      "term": "temporal cognition"
+    },
+    {
+      "term": "BIDS"
+    }
+  ],
+  "source_hash": "6e5c5b74fc333eb2ab8d9abbb3be84be3942ff185c626734a9902ce242315c47"
 }
