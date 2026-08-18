@@ -1,8 +1,8 @@
 {
   "version": "2.0",
-  "pipeline_stage": "enriched",
+  "pipeline_stage": "validated",
   "title": "A common neural mechanism underlies experiences of passage of time",
-  "description": "This dataset contains BIDS-formatted EEG and behavioral data from a study investigating the neural mechanisms underlying the subjective experience of time passage. Participants performed temporal perception tasks while continuous EEG was recorded. The dataset includes raw EEG data, behavioral responses, and participant metadata.",
+  "description": "This dataset contains raw EEG and behavioral data collected to investigate the common neural mechanisms underlying subjective experiences of passage of time. Participants completed behavioral tasks assessing subjective time perception while EEG was recorded. The data are organized in BIDS format to facilitate reuse and reanalysis by the neuroscience community.",
   "license": "CC0",
   "dataset_type": "raw",
   "authors": {
@@ -16,25 +16,16 @@
       "term": "time perception"
     },
     {
-      "term": "temporal processing"
+      "term": "electroencephalography"
     },
     {
-      "term": "neural mechanisms"
+      "term": "passage of time"
     },
     {
       "term": "subjective time"
     },
     {
-      "term": "electrophysiology"
-    },
-    {
-      "term": "BIDS"
-    },
-    {
-      "term": "time experience"
-    },
-    {
-      "term": "consciousness"
+      "term": "duration perception"
     }
   ],
   "related_identifiers": [
