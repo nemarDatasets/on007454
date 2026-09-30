@@ -1,8 +1,8 @@
 {
   "version": "2.0",
-  "pipeline_stage": "validated",
+  "pipeline_stage": "enriched",
   "title": "A common neural mechanism underlies experiences of passage of time",
-  "description": "This dataset contains raw EEG and behavioral data collected to investigate the common neural mechanisms underlying subjective experiences of passage of time. Participants completed behavioral tasks assessing subjective time perception while EEG was recorded. The data are organized in BIDS format to facilitate reuse and reanalysis by the neuroscience community.",
+  "description": "Raw EEG and behavioral recordings in BIDS format, accompanying the study 'A common neural mechanism underlies experiences of passage of time' (Jording et al.). The dataset contains per-subject BrainVision EEG recordings (.vhdr/.vmrk/.eeg), behavioral data, scans listings, and source data, and is intended for investigating the neural mechanisms underlying the experience of the passage of time. Task, participant, and equipment details beyond this are not specified in the source metadata.",
   "license": "CC0",
   "dataset_type": "raw",
   "authors": {
@@ -10,22 +10,23 @@
   },
   "keywords": [
     {
-      "term": "EEG"
+      "term": "Electroencephalography",
+      "subject_scheme": "MeSH",
+      "value_uri": "http://id.nlm.nih.gov/mesh/D004569"
     },
     {
-      "term": "time perception"
-    },
-    {
-      "term": "electroencephalography"
+      "term": "Time Perception",
+      "subject_scheme": "MeSH",
+      "value_uri": "http://id.nlm.nih.gov/mesh/D013998"
     },
     {
       "term": "passage of time"
     },
     {
-      "term": "subjective time"
+      "term": "behavioral data"
     },
     {
-      "term": "duration perception"
+      "term": "BIDS"
     }
   ],
   "related_identifiers": [
@@ -61,7 +62,7 @@
     "eeg"
   ],
   "sizes": [
-    "31.8 GB (211 files)"
+    "29.63 GB (211 files)"
   ],
   "formats": [
     ".bvef",
